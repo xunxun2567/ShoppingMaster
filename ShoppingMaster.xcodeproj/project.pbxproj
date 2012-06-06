@@ -37,20 +37,20 @@
 		05AD6068157F145700CD9979 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05AD606A157F145700CD9979 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		05AD606C157F145700CD9979 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		05AD6070157F145700CD9979 /* ShoppingMaster-Info.plist */ = {isa = PBXFileReference; path = "ShoppingMaster-Info.plist"; sourceTree = "<group>"; };
+		05AD6070157F145700CD9979 /* ShoppingMaster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShoppingMaster-Info.plist"; sourceTree = "<group>"; };
 		05AD6072157F145700CD9979 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05AD6074157F145700CD9979 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		05AD6076157F145700CD9979 /* ShoppingMaster-Prefix.pch */ = {isa = PBXFileReference; path = "ShoppingMaster-Prefix.pch"; sourceTree = "<group>"; };
-		05AD6077157F145700CD9979 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		05AD6076157F145700CD9979 /* ShoppingMaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShoppingMaster-Prefix.pch"; sourceTree = "<group>"; };
+		05AD6077157F145700CD9979 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		05AD6078157F145700CD9979 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		05AD607A157F145700CD9979 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		05AD607A157F145700CD9979 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		05AD607B157F145700CD9979 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		05AD607E157F145700CD9979 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		05AD6085157F145800CD9979 /* ShoppingMasterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingMasterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AD6086157F145800CD9979 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		05AD608E157F145800CD9979 /* ShoppingMasterTests-Info.plist */ = {isa = PBXFileReference; path = "ShoppingMasterTests-Info.plist"; sourceTree = "<group>"; };
+		05AD608E157F145800CD9979 /* ShoppingMasterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShoppingMasterTests-Info.plist"; sourceTree = "<group>"; };
 		05AD6090157F145800CD9979 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		05AD6092157F145800CD9979 /* ShoppingMasterTests.h */ = {isa = PBXFileReference; path = ShoppingMasterTests.h; sourceTree = "<group>"; };
+		05AD6092157F145800CD9979 /* ShoppingMasterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingMasterTests.h; sourceTree = "<group>"; };
 		05AD6093157F145800CD9979 /* ShoppingMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingMasterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
