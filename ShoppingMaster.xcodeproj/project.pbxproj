@@ -371,6 +371,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShoppingMaster/ShoppingMaster-Prefix.pch";
 				INFOPLIST_FILE = "ShoppingMaster/ShoppingMaster-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -382,6 +383,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShoppingMaster/ShoppingMaster-Prefix.pch";
 				INFOPLIST_FILE = "ShoppingMaster/ShoppingMaster-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -440,6 +442,7 @@
 				05AD6099157F145800CD9979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05AD609A157F145800CD9979 /* Build configuration list for PBXNativeTarget "ShoppingMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +451,7 @@
 				05AD609C157F145800CD9979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

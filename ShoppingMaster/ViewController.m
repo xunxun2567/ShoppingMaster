@@ -31,4 +31,16 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
+- (IBAction)showSettingsView:(id) sender 
+{
+    // TODO: change this later to show up settings view
+    UIAlertView *alert=[[UIAlertView alloc]
+                        initWithTitle:@"title"   
+                        message:@"James Message"  
+                        delegate: self      
+                        cancelButtonTitle:@"Cancel"                       
+                        otherButtonTitles:@"OK",nil];    
+    [alert show];
+}
+
 @end
