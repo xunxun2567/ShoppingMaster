@@ -20,6 +20,8 @@
 		05AD6089157F145800CD9979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD606A157F145700CD9979 /* Foundation.framework */; };
 		05AD6091157F145800CD9979 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05AD608F157F145800CD9979 /* InfoPlist.strings */; };
 		05AD6094157F145800CD9979 /* ShoppingMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AD6093157F145800CD9979 /* ShoppingMasterTests.m */; };
+		05AD60A5157F2E3400CD9979 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AD60A3157F2E3400CD9979 /* SettingsViewController.m */; };
+		05AD60A6157F2E3400CD9979 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05AD60A4157F2E3400CD9979 /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,9 @@
 		05AD6090157F145800CD9979 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05AD6092157F145800CD9979 /* ShoppingMasterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingMasterTests.h; sourceTree = "<group>"; };
 		05AD6093157F145800CD9979 /* ShoppingMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingMasterTests.m; sourceTree = "<group>"; };
+		05AD60A2157F2E3400CD9979 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
+		05AD60A3157F2E3400CD9979 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
+		05AD60A4157F2E3400CD9979 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = ../SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 		05AD606E157F145700CD9979 /* ShoppingMaster */ = {
 			isa = PBXGroup;
 			children = (
+				05AD60A2157F2E3400CD9979 /* SettingsViewController.h */,
+				05AD60A3157F2E3400CD9979 /* SettingsViewController.m */,
+				05AD60A4157F2E3400CD9979 /* SettingsViewController.xib */,
 				05AD6077157F145700CD9979 /* AppDelegate.h */,
 				05AD6078157F145700CD9979 /* AppDelegate.m */,
 				05AD607A157F145700CD9979 /* ViewController.h */,
@@ -224,6 +232,7 @@
 			files = (
 				05AD6073157F145700CD9979 /* InfoPlist.strings in Resources */,
 				05AD607F157F145700CD9979 /* ViewController.xib in Resources */,
+				05AD60A6157F2E3400CD9979 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +270,7 @@
 				05AD6075157F145700CD9979 /* main.m in Sources */,
 				05AD6079157F145700CD9979 /* AppDelegate.m in Sources */,
 				05AD607C157F145700CD9979 /* ViewController.m in Sources */,
+				05AD60A5157F2E3400CD9979 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
