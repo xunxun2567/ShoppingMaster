@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05AD6069157F145700CD9979 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD6068157F145700CD9979 /* UIKit.framework */; };
+		05AD606B157F145700CD9979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD606A157F145700CD9979 /* Foundation.framework */; };
+		05AD606D157F145700CD9979 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD606C157F145700CD9979 /* CoreGraphics.framework */; };
+		05AD6073157F145700CD9979 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05AD6071157F145700CD9979 /* InfoPlist.strings */; };
+		05AD6075157F145700CD9979 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AD6074157F145700CD9979 /* main.m */; };
+		05AD6079157F145700CD9979 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AD6078157F145700CD9979 /* AppDelegate.m */; };
+		05AD607C157F145700CD9979 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AD607B157F145700CD9979 /* ViewController.m */; };
+		05AD607F157F145700CD9979 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05AD607D157F145700CD9979 /* ViewController.xib */; };
+		05AD6087157F145800CD9979 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD6086157F145800CD9979 /* SenTestingKit.framework */; };
+		05AD6088157F145800CD9979 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD6068157F145700CD9979 /* UIKit.framework */; };
+		05AD6089157F145800CD9979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD606A157F145700CD9979 /* Foundation.framework */; };
+		05AD6091157F145800CD9979 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05AD608F157F145800CD9979 /* InfoPlist.strings */; };
+		05AD6094157F145800CD9979 /* ShoppingMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AD6093157F145800CD9979 /* ShoppingMasterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05AD608A157F145800CD9979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05AD605B157F145700CD9979 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05AD6063157F145700CD9979;
+			remoteInfo = ShoppingMaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05AD6064157F145700CD9979 /* ShoppingMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AD6068157F145700CD9979 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		05AD606A157F145700CD9979 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		05AD606C157F145700CD9979 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		05AD6070157F145700CD9979 /* ShoppingMaster-Info.plist */ = {isa = PBXFileReference; path = "ShoppingMaster-Info.plist"; sourceTree = "<group>"; };
+		05AD6072157F145700CD9979 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05AD6074157F145700CD9979 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05AD6076157F145700CD9979 /* ShoppingMaster-Prefix.pch */ = {isa = PBXFileReference; path = "ShoppingMaster-Prefix.pch"; sourceTree = "<group>"; };
+		05AD6077157F145700CD9979 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		05AD6078157F145700CD9979 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05AD607A157F145700CD9979 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		05AD607B157F145700CD9979 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05AD607E157F145700CD9979 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		05AD6085157F145800CD9979 /* ShoppingMasterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingMasterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05AD6086157F145800CD9979 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		05AD608E157F145800CD9979 /* ShoppingMasterTests-Info.plist */ = {isa = PBXFileReference; path = "ShoppingMasterTests-Info.plist"; sourceTree = "<group>"; };
+		05AD6090157F145800CD9979 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		05AD6092157F145800CD9979 /* ShoppingMasterTests.h */ = {isa = PBXFileReference; path = ShoppingMasterTests.h; sourceTree = "<group>"; };
+		05AD6093157F145800CD9979 /* ShoppingMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingMasterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05AD6061157F145700CD9979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AD6069157F145700CD9979 /* UIKit.framework in Frameworks */,
+				05AD606B157F145700CD9979 /* Foundation.framework in Frameworks */,
+				05AD606D157F145700CD9979 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AD6081157F145800CD9979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AD6087157F145800CD9979 /* SenTestingKit.framework in Frameworks */,
+				05AD6088157F145800CD9979 /* UIKit.framework in Frameworks */,
+				05AD6089157F145800CD9979 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05AD6059157F145700CD9979 = {
+			isa = PBXGroup;
+			children = (
+				05AD606E157F145700CD9979 /* ShoppingMaster */,
+				05AD608C157F145800CD9979 /* ShoppingMasterTests */,
+				05AD6067157F145700CD9979 /* Frameworks */,
+				05AD6065157F145700CD9979 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05AD6065157F145700CD9979 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05AD6064157F145700CD9979 /* ShoppingMaster.app */,
+				05AD6085157F145800CD9979 /* ShoppingMasterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05AD6067157F145700CD9979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05AD6068157F145700CD9979 /* UIKit.framework */,
+				05AD606A157F145700CD9979 /* Foundation.framework */,
+				05AD606C157F145700CD9979 /* CoreGraphics.framework */,
+				05AD6086157F145800CD9979 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		05AD606E157F145700CD9979 /* ShoppingMaster */ = {
+			isa = PBXGroup;
+			children = (
+				05AD6077157F145700CD9979 /* AppDelegate.h */,
+				05AD6078157F145700CD9979 /* AppDelegate.m */,
+				05AD607A157F145700CD9979 /* ViewController.h */,
+				05AD607B157F145700CD9979 /* ViewController.m */,
+				05AD607D157F145700CD9979 /* ViewController.xib */,
+				05AD606F157F145700CD9979 /* Supporting Files */,
+			);
+			path = ShoppingMaster;
+			sourceTree = "<group>";
+		};
+		05AD606F157F145700CD9979 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05AD6070157F145700CD9979 /* ShoppingMaster-Info.plist */,
+				05AD6071157F145700CD9979 /* InfoPlist.strings */,
+				05AD6074157F145700CD9979 /* main.m */,
+				05AD6076157F145700CD9979 /* ShoppingMaster-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05AD608C157F145800CD9979 /* ShoppingMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				05AD6092157F145800CD9979 /* ShoppingMasterTests.h */,
+				05AD6093157F145800CD9979 /* ShoppingMasterTests.m */,
+				05AD608D157F145800CD9979 /* Supporting Files */,
+			);
+			path = ShoppingMasterTests;
+			sourceTree = "<group>";
+		};
+		05AD608D157F145800CD9979 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05AD608E157F145800CD9979 /* ShoppingMasterTests-Info.plist */,
+				05AD608F157F145800CD9979 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05AD6063157F145700CD9979 /* ShoppingMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05AD6097157F145800CD9979 /* Build configuration list for PBXNativeTarget "ShoppingMaster" */;
+			buildPhases = (
+				05AD6060157F145700CD9979 /* Sources */,
+				05AD6061157F145700CD9979 /* Frameworks */,
+				05AD6062157F145700CD9979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShoppingMaster;
+			productName = ShoppingMaster;
+			productReference = 05AD6064157F145700CD9979 /* ShoppingMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05AD6084157F145800CD9979 /* ShoppingMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05AD609A157F145800CD9979 /* Build configuration list for PBXNativeTarget "ShoppingMasterTests" */;
+			buildPhases = (
+				05AD6080157F145800CD9979 /* Sources */,
+				05AD6081157F145800CD9979 /* Frameworks */,
+				05AD6082157F145800CD9979 /* Resources */,
+				05AD6083157F145800CD9979 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05AD608B157F145800CD9979 /* PBXTargetDependency */,
+			);
+			name = ShoppingMasterTests;
+			productName = ShoppingMasterTests;
+			productReference = 05AD6085157F145800CD9979 /* ShoppingMasterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05AD605B157F145700CD9979 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Egibbon Inc.";
+			};
+			buildConfigurationList = 05AD605E157F145700CD9979 /* Build configuration list for PBXProject "ShoppingMaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 05AD6059157F145700CD9979;
+			productRefGroup = 05AD6065157F145700CD9979 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05AD6063157F145700CD9979 /* ShoppingMaster */,
+				05AD6084157F145800CD9979 /* ShoppingMasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05AD6062157F145700CD9979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AD6073157F145700CD9979 /* InfoPlist.strings in Resources */,
+				05AD607F157F145700CD9979 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AD6082157F145800CD9979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AD6091157F145800CD9979 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05AD6083157F145800CD9979 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05AD6060157F145700CD9979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AD6075157F145700CD9979 /* main.m in Sources */,
+				05AD6079157F145700CD9979 /* AppDelegate.m in Sources */,
+				05AD607C157F145700CD9979 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05AD6080157F145800CD9979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05AD6094157F145800CD9979 /* ShoppingMasterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05AD608B157F145800CD9979 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05AD6063157F145700CD9979 /* ShoppingMaster */;
+			targetProxy = 05AD608A157F145800CD9979 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05AD6071157F145700CD9979 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05AD6072157F145700CD9979 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		05AD607D157F145700CD9979 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05AD607E157F145700CD9979 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		05AD608F157F145800CD9979 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05AD6090157F145800CD9979 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05AD6095157F145800CD9979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05AD6096157F145800CD9979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05AD6098157F145800CD9979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShoppingMaster/ShoppingMaster-Prefix.pch";
+				INFOPLIST_FILE = "ShoppingMaster/ShoppingMaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		05AD6099157F145800CD9979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShoppingMaster/ShoppingMaster-Prefix.pch";
+				INFOPLIST_FILE = "ShoppingMaster/ShoppingMaster-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		05AD609B157F145800CD9979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShoppingMaster.app/ShoppingMaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShoppingMaster/ShoppingMaster-Prefix.pch";
+				INFOPLIST_FILE = "ShoppingMasterTests/ShoppingMasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		05AD609C157F145800CD9979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ShoppingMaster.app/ShoppingMaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShoppingMaster/ShoppingMaster-Prefix.pch";
+				INFOPLIST_FILE = "ShoppingMasterTests/ShoppingMasterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05AD605E157F145700CD9979 /* Build configuration list for PBXProject "ShoppingMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AD6095157F145800CD9979 /* Debug */,
+				05AD6096157F145800CD9979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05AD6097157F145800CD9979 /* Build configuration list for PBXNativeTarget "ShoppingMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AD6098157F145800CD9979 /* Debug */,
+				05AD6099157F145800CD9979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05AD609A157F145800CD9979 /* Build configuration list for PBXNativeTarget "ShoppingMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AD609B157F145800CD9979 /* Debug */,
+				05AD609C157F145800CD9979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05AD605B157F145700CD9979 /* Project object */;
+}
