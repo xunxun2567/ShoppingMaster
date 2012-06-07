@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0562D641157F64BB00AF4C15 /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0562D63F157F64BB00AF4C15 /* ItemsViewController.m */; };
+		0562D642157F64BB00AF4C15 /* ItemsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0562D640157F64BB00AF4C15 /* ItemsViewController.xib */; };
+		0562D6461580731F00AF4C15 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0562D6451580731F00AF4C15 /* JSONKit.m */; };
+		05994B601580881400E0B911 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05994B5E1580881400E0B911 /* Model.xcdatamodeld */; };
+		05994B7615809D4E00E0B911 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05994B7515809D4E00E0B911 /* CoreData.framework */; };
 		05AD6069157F145700CD9979 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD6068157F145700CD9979 /* UIKit.framework */; };
 		05AD606B157F145700CD9979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD606A157F145700CD9979 /* Foundation.framework */; };
 		05AD606D157F145700CD9979 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD606C157F145700CD9979 /* CoreGraphics.framework */; };
@@ -20,8 +25,12 @@
 		05AD6089157F145800CD9979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD606A157F145700CD9979 /* Foundation.framework */; };
 		05AD6091157F145800CD9979 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05AD608F157F145800CD9979 /* InfoPlist.strings */; };
 		05AD6094157F145800CD9979 /* ShoppingMasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AD6093157F145800CD9979 /* ShoppingMasterTests.m */; };
-		05AD60A5157F2E3400CD9979 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05AD60A3157F2E3400CD9979 /* SettingsViewController.m */; };
-		05AD60A6157F2E3400CD9979 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05AD60A4157F2E3400CD9979 /* SettingsViewController.xib */; };
+		05DB5C3215809DFF00325529 /* Brand.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DB5C2F15809DFF00325529 /* Brand.m */; };
+		05DB5C3315809DFF00325529 /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DB5C3115809DFF00325529 /* Object.m */; };
+		05DB5C3A15809E2000325529 /* FavorateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DB5C3515809E2000325529 /* FavorateViewController.m */; };
+		05DB5C3B15809E2000325529 /* FavorateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DB5C3615809E2000325529 /* FavorateViewController.xib */; };
+		05DB5C3C15809E2000325529 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DB5C3815809E2000325529 /* SettingsViewController.m */; };
+		05DB5C3D15809E2000325529 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DB5C3915809E2000325529 /* SettingsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0562D63E157F64BB00AF4C15 /* ItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemsViewController.h; path = ShoppingMaster/ItemsViewController.h; sourceTree = "<group>"; };
+		0562D63F157F64BB00AF4C15 /* ItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemsViewController.m; path = ShoppingMaster/ItemsViewController.m; sourceTree = "<group>"; };
+		0562D640157F64BB00AF4C15 /* ItemsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ItemsViewController.xib; path = ShoppingMaster/ItemsViewController.xib; sourceTree = "<group>"; };
+		0562D6441580730900AF4C15 /* JSONKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = ShoppingMaster/JSONKit.h; sourceTree = "<group>"; };
+		0562D6451580731F00AF4C15 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = ShoppingMaster/JSONKit.m; sourceTree = "<group>"; };
+		05994B5F1580881400E0B911 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		05994B7515809D4E00E0B911 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		05AD6064157F145700CD9979 /* ShoppingMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AD6068157F145700CD9979 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05AD606A157F145700CD9979 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -45,8 +61,8 @@
 		05AD6076157F145700CD9979 /* ShoppingMaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShoppingMaster-Prefix.pch"; sourceTree = "<group>"; };
 		05AD6077157F145700CD9979 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		05AD6078157F145700CD9979 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		05AD607A157F145700CD9979 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		05AD607B157F145700CD9979 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05AD607A157F145700CD9979 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ShoppingMaster/ViewController.h; sourceTree = "<group>"; };
+		05AD607B157F145700CD9979 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ShoppingMaster/ViewController.m; sourceTree = "<group>"; };
 		05AD607E157F145700CD9979 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		05AD6085157F145800CD9979 /* ShoppingMasterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingMasterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AD6086157F145800CD9979 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -54,9 +70,16 @@
 		05AD6090157F145800CD9979 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05AD6092157F145800CD9979 /* ShoppingMasterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShoppingMasterTests.h; sourceTree = "<group>"; };
 		05AD6093157F145800CD9979 /* ShoppingMasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShoppingMasterTests.m; sourceTree = "<group>"; };
-		05AD60A2157F2E3400CD9979 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
-		05AD60A3157F2E3400CD9979 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
-		05AD60A4157F2E3400CD9979 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = ../SettingsViewController.xib; sourceTree = "<group>"; };
+		05DB5C2E15809DFF00325529 /* Brand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Brand.h; path = ShoppingMaster/Brand.h; sourceTree = "<group>"; };
+		05DB5C2F15809DFF00325529 /* Brand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Brand.m; path = ShoppingMaster/Brand.m; sourceTree = "<group>"; };
+		05DB5C3015809DFF00325529 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Object.h; path = ShoppingMaster/Object.h; sourceTree = "<group>"; };
+		05DB5C3115809DFF00325529 /* Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Object.m; path = ShoppingMaster/Object.m; sourceTree = "<group>"; };
+		05DB5C3415809E2000325529 /* FavorateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavorateViewController.h; path = ShoppingMaster/FavorateViewController.h; sourceTree = "<group>"; };
+		05DB5C3515809E2000325529 /* FavorateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavorateViewController.m; path = ShoppingMaster/FavorateViewController.m; sourceTree = "<group>"; };
+		05DB5C3615809E2000325529 /* FavorateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FavorateViewController.xib; path = ShoppingMaster/FavorateViewController.xib; sourceTree = "<group>"; };
+		05DB5C3715809E2000325529 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ShoppingMaster/SettingsViewController.h; sourceTree = "<group>"; };
+		05DB5C3815809E2000325529 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ShoppingMaster/SettingsViewController.m; sourceTree = "<group>"; };
+		05DB5C3915809E2000325529 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = ShoppingMaster/SettingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05994B7615809D4E00E0B911 /* CoreData.framework in Frameworks */,
 				05AD6069157F145700CD9979 /* UIKit.framework in Frameworks */,
 				05AD606B157F145700CD9979 /* Foundation.framework in Frameworks */,
 				05AD606D157F145700CD9979 /* CoreGraphics.framework in Frameworks */,
@@ -83,9 +107,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05994B6E15808B5C00E0B911 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05DB5C2E15809DFF00325529 /* Brand.h */,
+				05DB5C2F15809DFF00325529 /* Brand.m */,
+				05DB5C3015809DFF00325529 /* Object.h */,
+				05DB5C3115809DFF00325529 /* Object.m */,
+				05994B5E1580881400E0B911 /* Model.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		05994B6F15808B6F00E0B911 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				05DB5C3415809E2000325529 /* FavorateViewController.h */,
+				05DB5C3515809E2000325529 /* FavorateViewController.m */,
+				05DB5C3615809E2000325529 /* FavorateViewController.xib */,
+				05DB5C3715809E2000325529 /* SettingsViewController.h */,
+				05DB5C3815809E2000325529 /* SettingsViewController.m */,
+				05DB5C3915809E2000325529 /* SettingsViewController.xib */,
+				0562D63E157F64BB00AF4C15 /* ItemsViewController.h */,
+				0562D63F157F64BB00AF4C15 /* ItemsViewController.m */,
+				0562D640157F64BB00AF4C15 /* ItemsViewController.xib */,
+				05AD607A157F145700CD9979 /* ViewController.h */,
+				05AD607B157F145700CD9979 /* ViewController.m */,
+				05AD607D157F145700CD9979 /* ViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		05994B7015808BC100E0B911 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0562D6441580730900AF4C15 /* JSONKit.h */,
+				0562D6451580731F00AF4C15 /* JSONKit.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		05AD6059157F145700CD9979 = {
 			isa = PBXGroup;
 			children = (
+				05994B7515809D4E00E0B911 /* CoreData.framework */,
+				05994B7015808BC100E0B911 /* Helpers */,
+				05994B6F15808B6F00E0B911 /* Controllers */,
+				05994B6E15808B5C00E0B911 /* Model */,
 				05AD606E157F145700CD9979 /* ShoppingMaster */,
 				05AD608C157F145800CD9979 /* ShoppingMasterTests */,
 				05AD6067157F145700CD9979 /* Frameworks */,
@@ -116,14 +184,8 @@
 		05AD606E157F145700CD9979 /* ShoppingMaster */ = {
 			isa = PBXGroup;
 			children = (
-				05AD60A2157F2E3400CD9979 /* SettingsViewController.h */,
-				05AD60A3157F2E3400CD9979 /* SettingsViewController.m */,
-				05AD60A4157F2E3400CD9979 /* SettingsViewController.xib */,
 				05AD6077157F145700CD9979 /* AppDelegate.h */,
 				05AD6078157F145700CD9979 /* AppDelegate.m */,
-				05AD607A157F145700CD9979 /* ViewController.h */,
-				05AD607B157F145700CD9979 /* ViewController.m */,
-				05AD607D157F145700CD9979 /* ViewController.xib */,
 				05AD606F157F145700CD9979 /* Supporting Files */,
 			);
 			path = ShoppingMaster;
@@ -232,7 +294,9 @@
 			files = (
 				05AD6073157F145700CD9979 /* InfoPlist.strings in Resources */,
 				05AD607F157F145700CD9979 /* ViewController.xib in Resources */,
-				05AD60A6157F2E3400CD9979 /* SettingsViewController.xib in Resources */,
+				0562D642157F64BB00AF4C15 /* ItemsViewController.xib in Resources */,
+				05DB5C3B15809E2000325529 /* FavorateViewController.xib in Resources */,
+				05DB5C3D15809E2000325529 /* SettingsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +334,13 @@
 				05AD6075157F145700CD9979 /* main.m in Sources */,
 				05AD6079157F145700CD9979 /* AppDelegate.m in Sources */,
 				05AD607C157F145700CD9979 /* ViewController.m in Sources */,
-				05AD60A5157F2E3400CD9979 /* SettingsViewController.m in Sources */,
+				0562D641157F64BB00AF4C15 /* ItemsViewController.m in Sources */,
+				0562D6461580731F00AF4C15 /* JSONKit.m in Sources */,
+				05994B601580881400E0B911 /* Model.xcdatamodeld in Sources */,
+				05DB5C3215809DFF00325529 /* Brand.m in Sources */,
+				05DB5C3315809DFF00325529 /* Object.m in Sources */,
+				05DB5C3A15809E2000325529 /* FavorateViewController.m in Sources */,
+				05DB5C3C15809E2000325529 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +377,7 @@
 				05AD607E157F145700CD9979 /* en */,
 			);
 			name = ViewController.xib;
+			path = ShoppingMaster;
 			sourceTree = "<group>";
 		};
 		05AD608F157F145800CD9979 /* InfoPlist.strings */ = {
@@ -368,6 +439,7 @@
 		05AD6098157F145800CD9979 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShoppingMaster/ShoppingMaster-Prefix.pch";
 				INFOPLIST_FILE = "ShoppingMaster/ShoppingMaster-Info.plist";
@@ -380,6 +452,7 @@
 		05AD6099157F145800CD9979 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ShoppingMaster/ShoppingMaster-Prefix.pch";
 				INFOPLIST_FILE = "ShoppingMaster/ShoppingMaster-Info.plist";
@@ -454,6 +527,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		05994B5E1580881400E0B911 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				05994B5F1580881400E0B911 /* Model.xcdatamodel */,
+			);
+			currentVersion = 05994B5F1580881400E0B911 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = ShoppingMaster/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 05AD605B157F145700CD9979 /* Project object */;
 }

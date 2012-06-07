@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController <UIAlertViewDelegate>
 
+-(IBAction)startUpdate:(id)sender;
 -(IBAction)showSettingsView:(id)sender;
 
 @end

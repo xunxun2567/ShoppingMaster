@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "JSONKit.h"
 
 @interface ViewController ()
 
@@ -41,6 +42,19 @@
                         cancelButtonTitle:@"Cancel"                       
                         otherButtonTitles:@"OK",nil];    
     [alert show];
+}
+
+static NSString* API_URL = @"http://127.0.0.1:8000/api/?key=timeline&prev_update=201205260000";
+
+-(IBAction)startUpdate:(id)sender   {
+    NSLog(@"Starting update.");
+    NSURL* url = [NSURL URLWithString:API_URL];
+    NSString* responseText = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
+    //NSLog(@"responseText: %@", responseText);
+    NSMutableDictionary* dict = [responseText mutableObjectFromJSONString];
+    NSMutableDictionary* content = [dict objectForKey:@"content"];
+
+    NSLog(@"%@", [[content allValues]objectAtIndex:0]); 
 }
 
 @end
