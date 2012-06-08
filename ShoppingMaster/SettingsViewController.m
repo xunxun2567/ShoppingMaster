@@ -7,6 +7,8 @@
 //
 
 #import "SettingsViewController.h"
+#import "ViewSwitcher.h"
+
 
 @interface SettingsViewController ()
 
@@ -39,6 +41,11 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+
+-(IBAction)showMainView:(id)sender
+{
+    [[ViewSwitcher instance]goToMainView];   
 }
 
 @end

@@ -42,5 +42,9 @@ static ViewSwitcher* g_instance;
     _mainWindow.rootViewController = _settingsViewController;
 }
 
+-(void)goToMainView {
+    _mainWindow.rootViewController = _viewController;
+    
+}
 
 @end

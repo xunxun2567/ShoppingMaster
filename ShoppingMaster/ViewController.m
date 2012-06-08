@@ -36,7 +36,6 @@
 - (IBAction)showSettingsView:(id) sender 
 {
     [[ViewSwitcher instance]goToSettings];
-
 }
 
 -(IBAction)startUpdate:(id)sender   {
