@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Updater.h"
+#import "ViewSwitcher.h"
 #import "JSONKit.h"
 
 @interface ViewController ()
@@ -35,14 +36,8 @@
 
 - (IBAction)showSettingsView:(id) sender 
 {
-    // TODO: change this later to show up settings view
-    UIAlertView *alert=[[UIAlertView alloc]
-                        initWithTitle:@"title"   
-                        message:@"James Message"  
-                        delegate: self      
-                        cancelButtonTitle:@"Cancel"                       
-                        otherButtonTitles:@"OK",nil];    
-    [alert show];
+    [[ViewSwitcher instance]goToSettings];
+
 }
 
 static NSString* API_URL = @"http://127.0.0.1:8000/api/?key=timeline&prev_update=201205260000";

@@ -12,6 +12,7 @@
 		0562D6461580731F00AF4C15 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0562D6451580731F00AF4C15 /* JSONKit.m */; };
 		05994B601580881400E0B911 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05994B5E1580881400E0B911 /* Model.xcdatamodeld */; };
 		05994B7615809D4E00E0B911 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05994B7515809D4E00E0B911 /* CoreData.framework */; };
+		05A84233158187C90029AD89 /* ViewSwitcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 05A84232158187C90029AD89 /* ViewSwitcher.m */; };
 		05AD6069157F145700CD9979 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD6068157F145700CD9979 /* UIKit.framework */; };
 		05AD606B157F145700CD9979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD606A157F145700CD9979 /* Foundation.framework */; };
 		05AD606D157F145700CD9979 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05AD606C157F145700CD9979 /* CoreGraphics.framework */; };
@@ -53,6 +54,8 @@
 		0562D6451580731F00AF4C15 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = ShoppingMaster/JSONKit.m; sourceTree = "<group>"; };
 		05994B5F1580881400E0B911 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		05994B7515809D4E00E0B911 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		05A84231158187C90029AD89 /* ViewSwitcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewSwitcher.h; path = ShoppingMaster/ViewSwitcher.h; sourceTree = "<group>"; };
+		05A84232158187C90029AD89 /* ViewSwitcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewSwitcher.m; path = ShoppingMaster/ViewSwitcher.m; sourceTree = "<group>"; };
 		05AD6064157F145700CD9979 /* ShoppingMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05AD6068157F145700CD9979 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		05AD606A157F145700CD9979 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -150,6 +153,8 @@
 				0562D6451580731F00AF4C15 /* JSONKit.m */,
 				05DB5C40158112C100325529 /* Updater.h */,
 				05DB5C41158112C100325529 /* Updater.m */,
+				05A84231158187C90029AD89 /* ViewSwitcher.h */,
+				05A84232158187C90029AD89 /* ViewSwitcher.m */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 				05DB5C3A15809E2000325529 /* FavorateViewController.m in Sources */,
 				05DB5C3C15809E2000325529 /* SettingsViewController.m in Sources */,
 				05DB5C42158112C100325529 /* Updater.m in Sources */,
+				05A84233158187C90029AD89 /* ViewSwitcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
