@@ -79,6 +79,16 @@ static Updater* g_instance;
     return requestString;
 }
 
+-(void)_updateToContext:(NSMutableDictionary*)dict   {
+    // TODO: please go do it
+    
+    //    Brand* brand = (Brand*)[NSEntityDescription insertNewObjectForEntityForName:@"Brand" inManagedObjectContext:_objectContext];
+    //    
+    //    brand.name = @"some random brand";
+    //    
+    //    [_objectContext save:nil];    
+}
+
 -(void)startUpdate  {
     NSLog(@"Starting update.");
     
@@ -88,22 +98,14 @@ static Updater* g_instance;
     NSURL* url = [NSURL URLWithString:requestString];
     NSString* responseText = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
     NSLog(@"response: %@", responseText);
+    
+    NSMutableDictionary* dict = [responseText mutableObjectFromJSONString];
+    NSMutableDictionary* content = [dict objectForKey:@"content"];
 
+    [self _updateToContext:content];
+    
     NSDate* today = [NSDate dateWithTimeIntervalSinceNow:0];
     [[NSUserDefaults standardUserDefaults]setObject:today forKey:@"last_update"];
-    
-//    NSURL* url = [NSURL URLWithString:API_URL];
-//    NSString* responseText = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
-//    //NSLog(@"responseText: %@", responseText);
-//    NSMutableDictionary* dict = [responseText mutableObjectFromJSONString];
-//    NSMutableDictionary* content = [dict objectForKey:@"content"];
-//        
-//    Brand* brand = (Brand*)[NSEntityDescription insertNewObjectForEntityForName:@"Brand" inManagedObjectContext:_objectContext];
-//    
-//    brand.name = @"some random brand";
-//    
-//    [_objectContext save:nil];
-
 }
 
 
