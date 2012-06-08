@@ -27,5 +27,6 @@
 @property (strong, nonatomic, readonly) ItemsViewController* itemsViewController;
 
 -(void)goToSettings;
+-(void)goToMainView;
 
 @end

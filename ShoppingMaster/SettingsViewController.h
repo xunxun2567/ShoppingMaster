@@ -10,4 +10,6 @@
 
 @interface SettingsViewController : UIViewController
 
+-(IBAction)showMainView:(id)sender;
+
 @end

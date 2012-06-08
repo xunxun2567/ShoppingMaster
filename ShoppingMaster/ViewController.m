@@ -37,7 +37,6 @@
 - (IBAction)showSettingsView:(id) sender 
 {
     [[ViewSwitcher instance]goToSettings];
-
 }
 
 static NSString* API_URL = @"http://127.0.0.1:8000/api/?key=timeline&prev_update=201205260000";
