@@ -11,6 +11,7 @@
 
 @interface Updater : NSObject
 
+@property (strong, nonatomic, readonly) NSString* configFile;
 @property (strong, nonatomic, readonly) NSURL* documentDirectory;
 @property (strong, nonatomic, readonly) NSURL* databaseFilepath;
 @property (strong, nonatomic, readonly) NSURL* serverAddress;
@@ -19,6 +20,6 @@
 
 +(Updater*)instance;
 
--(id)initWithServerAddress:(NSString*)serverAddress andLocalDatabaseFile:(NSString*)localDatabaseFilename;
+-(void)startUpdate;
 
 @end

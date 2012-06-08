@@ -7,9 +7,12 @@
 //
 
 #import "Updater.h"
+#import "JSONKit.h"
+#import "Brand.h"
 
 @implementation Updater
 
+@synthesize configFile = _configFile;
 @synthesize documentDirectory = _documentDirectory;
 @synthesize databaseFilepath = _databaseFilepath;
 @synthesize serverAddress = _serverAddress;
@@ -20,25 +23,25 @@ static Updater* g_instance;
 
 +(Updater*)instance {
     if (!g_instance)    {
-        NSString* configFile = [[NSBundle mainBundle]pathForResource:@"config" ofType:@"plist"];
-        NSMutableDictionary* dict = [NSMutableDictionary dictionaryWithContentsOfFile:configFile];
-        
-        NSString* serverAddress = [dict objectForKey:@"server_address"];
-        NSString* databaseFile = [dict objectForKey:@"database_file"];
-        g_instance = [[Updater alloc]initWithServerAddress:serverAddress andLocalDatabaseFile:databaseFile];
+        g_instance = [[Updater alloc]init];
     }
     return g_instance;
 }
 
--(id)initWithServerAddress:(NSString*)serverAddress andLocalDatabaseFile:(NSString*)localDatabaseFilename   {
-    
-    _documentDirectory = [[[NSFileManager defaultManager]URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask]objectAtIndex:0];
+-(id)init   {    
+    _configFile = [[[NSBundle mainBundle]pathForResource:@"config" ofType:@"plist"]copy];
+    NSMutableDictionary* dict = [NSMutableDictionary dictionaryWithContentsOfFile:_configFile];
+
+    NSString* serverAddress = [dict objectForKey:@"server_address"];
+    NSString* databaseFile = [dict objectForKey:@"database_file"];
+
+    _documentDirectory = [[[[NSFileManager defaultManager]URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask]objectAtIndex:0]copy];
     NSLog(@"Document Directory: %@", _documentDirectory);
     
-    _databaseFilepath = [_documentDirectory URLByAppendingPathComponent:localDatabaseFilename];
+    _databaseFilepath = [[_documentDirectory URLByAppendingPathComponent:databaseFile]copy];
     NSLog(@"Database file at: %@", _databaseFilepath);
     
-    _serverAddress = [NSURL URLWithString:serverAddress];
+    _serverAddress = [[NSURL URLWithString:serverAddress]copy];
     NSLog(@"Server address:%@", _serverAddress);
     
     _objectModel = [NSManagedObjectModel mergedModelFromBundles:nil];
@@ -53,9 +56,54 @@ static Updater* g_instance;
     _objectContext = [[NSManagedObjectContext alloc]init];
     [_objectContext setPersistentStoreCoordinator:coordinator];
     NSLog(@"Ojbect context constructed");
-    
-    g_instance = self;    
+            
     return self;
+}
+
+-(NSString*)_makeRequestString   {
+    NSDate* lastUpdate = [[NSUserDefaults standardUserDefaults]objectForKey:@"last_update"];
+
+    NSDateFormatter* format = [[NSDateFormatter alloc] init];
+    [format setDateFormat:@"YMMddHHmm"];
+    
+    NSString* queryString = @"";
+    NSString* requestString = @"";
+    if (!lastUpdate)  {
+        NSLog(@"last_update not found in config.plist, this seems to be your first run.");
+        queryString = [@"init=1" copy];
+    }
+    else {
+        queryString = [NSString stringWithFormat:@"prev_update=%@", [format stringFromDate:lastUpdate]];
+    }
+    requestString = [NSString stringWithFormat:@"http://%@/api/?key=timeline&%@", _serverAddress, queryString];
+    return requestString;
+}
+
+-(void)startUpdate  {
+    NSLog(@"Starting update.");
+    
+    NSString* requestString = [self _makeRequestString];
+    NSLog(@"Query string formed as: %@", requestString);
+
+    NSURL* url = [NSURL URLWithString:requestString];
+    NSString* responseText = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
+    NSLog(@"response: %@", responseText);
+
+    NSDate* today = [NSDate dateWithTimeIntervalSinceNow:0];
+    [[NSUserDefaults standardUserDefaults]setObject:today forKey:@"last_update"];
+    
+//    NSURL* url = [NSURL URLWithString:API_URL];
+//    NSString* responseText = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
+//    //NSLog(@"responseText: %@", responseText);
+//    NSMutableDictionary* dict = [responseText mutableObjectFromJSONString];
+//    NSMutableDictionary* content = [dict objectForKey:@"content"];
+//        
+//    Brand* brand = (Brand*)[NSEntityDescription insertNewObjectForEntityForName:@"Brand" inManagedObjectContext:_objectContext];
+//    
+//    brand.name = @"some random brand";
+//    
+//    [_objectContext save:nil];
+
 }
 
 
