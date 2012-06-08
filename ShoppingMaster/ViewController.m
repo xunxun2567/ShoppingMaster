@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Updater.h"
 #import "JSONKit.h"
 
 @interface ViewController ()
@@ -55,6 +56,8 @@ static NSString* API_URL = @"http://127.0.0.1:8000/api/?key=timeline&prev_update
     NSMutableDictionary* content = [dict objectForKey:@"content"];
 
     NSLog(@"%@", [[content allValues]objectAtIndex:0]); 
+    
+    [NSEntityDescription insertNewObjectForEntityForName:@"Brand" inManagedObjectContext:[Updater instance].objectContext];
 }
 
 @end

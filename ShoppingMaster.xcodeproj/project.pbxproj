@@ -31,6 +31,8 @@
 		05DB5C3B15809E2000325529 /* FavorateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DB5C3615809E2000325529 /* FavorateViewController.xib */; };
 		05DB5C3C15809E2000325529 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DB5C3815809E2000325529 /* SettingsViewController.m */; };
 		05DB5C3D15809E2000325529 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DB5C3915809E2000325529 /* SettingsViewController.xib */; };
+		05DB5C42158112C100325529 /* Updater.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DB5C41158112C100325529 /* Updater.m */; };
+		05DB5C481581248600325529 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05DB5C471581248600325529 /* config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,9 @@
 		05DB5C3715809E2000325529 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ShoppingMaster/SettingsViewController.h; sourceTree = "<group>"; };
 		05DB5C3815809E2000325529 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ShoppingMaster/SettingsViewController.m; sourceTree = "<group>"; };
 		05DB5C3915809E2000325529 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = ShoppingMaster/SettingsViewController.xib; sourceTree = "<group>"; };
+		05DB5C40158112C100325529 /* Updater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Updater.h; path = ShoppingMaster/Updater.h; sourceTree = "<group>"; };
+		05DB5C41158112C100325529 /* Updater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Updater.m; path = ShoppingMaster/Updater.m; sourceTree = "<group>"; };
+		05DB5C471581248600325529 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +148,8 @@
 			children = (
 				0562D6441580730900AF4C15 /* JSONKit.h */,
 				0562D6451580731F00AF4C15 /* JSONKit.m */,
+				05DB5C40158112C100325529 /* Updater.h */,
+				05DB5C41158112C100325529 /* Updater.m */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -198,6 +205,7 @@
 				05AD6071157F145700CD9979 /* InfoPlist.strings */,
 				05AD6074157F145700CD9979 /* main.m */,
 				05AD6076157F145700CD9979 /* ShoppingMaster-Prefix.pch */,
+				05DB5C471581248600325529 /* config.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -297,6 +305,7 @@
 				0562D642157F64BB00AF4C15 /* ItemsViewController.xib in Resources */,
 				05DB5C3B15809E2000325529 /* FavorateViewController.xib in Resources */,
 				05DB5C3D15809E2000325529 /* SettingsViewController.xib in Resources */,
+				05DB5C481581248600325529 /* config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +350,7 @@
 				05DB5C3315809DFF00325529 /* Object.m in Sources */,
 				05DB5C3A15809E2000325529 /* FavorateViewController.m in Sources */,
 				05DB5C3C15809E2000325529 /* SettingsViewController.m in Sources */,
+				05DB5C42158112C100325529 /* Updater.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
