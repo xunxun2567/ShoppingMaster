@@ -6,5 +6,28 @@
 	<string>database.sqlite</string>
 	<key>server_address</key>
 	<string>127.0.0.1:8000</string>
+	<key>shop_names</key>
+	<array>
+		<string>ca</string>
+		<string>coach</string>
+		<string>gap</string>
+		<string>itezhop</string>
+		<string>quicksilver</string>
+		<string>roxy</string>
+		<string>uniqlo</string>
+		<string>goelia</string>
+		<string>adidas</string>
+		<string>crocs</string>
+		<string>etam</string>
+		<string>forever21</string>
+		<string>goelia</string>
+		<string>mango</string>
+		<string>nike</string>
+		<string>oasis</string>
+		<string>ochirly</string>
+		<string>vancl</string>
+		<string>zara</string>
+		<string>esprit</string>
+	</array>
 </dict>
 </plist>

@@ -34,6 +34,26 @@
 		05DB5C3D15809E2000325529 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DB5C3915809E2000325529 /* SettingsViewController.xib */; };
 		05DB5C42158112C100325529 /* Updater.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DB5C41158112C100325529 /* Updater.m */; };
 		05DB5C481581248600325529 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05DB5C471581248600325529 /* config.plist */; };
+		2B187202158327770045A880 /* ca_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871EE158327770045A880 /* ca_logo.png */; };
+		2B187203158327770045A880 /* coach_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871EF158327770045A880 /* coach_logo.png */; };
+		2B187204158327770045A880 /* crocs_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871F0158327770045A880 /* crocs_logo.png */; };
+		2B187205158327770045A880 /* adidas_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871F1158327770045A880 /* adidas_logo.png */; };
+		2B187206158327770045A880 /* esprit_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871F2158327770045A880 /* esprit_logo.png */; };
+		2B187207158327770045A880 /* etam_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871F3158327770045A880 /* etam_logo.png */; };
+		2B187208158327770045A880 /* forever21_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871F4158327770045A880 /* forever21_logo.png */; };
+		2B187209158327770045A880 /* gap_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871F5158327770045A880 /* gap_logo.png */; };
+		2B18720A158327770045A880 /* goelia_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871F6158327770045A880 /* goelia_logo.png */; };
+		2B18720B158327770045A880 /* hm_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871F7158327770045A880 /* hm_logo.png */; };
+		2B18720C158327770045A880 /* itezhop_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871F8158327770045A880 /* itezhop_logo.png */; };
+		2B18720D158327770045A880 /* mango_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871F9158327770045A880 /* mango_logo.png */; };
+		2B18720E158327770045A880 /* nike_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871FA158327770045A880 /* nike_logo.png */; };
+		2B18720F158327770045A880 /* oasis_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871FB158327770045A880 /* oasis_logo.png */; };
+		2B187210158327770045A880 /* ochirly_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871FC158327770045A880 /* ochirly_logo.png */; };
+		2B187211158327770045A880 /* quicksilver_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871FD158327770045A880 /* quicksilver_logo.png */; };
+		2B187212158327770045A880 /* roxy_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871FE158327770045A880 /* roxy_logo.png */; };
+		2B187213158327770045A880 /* uniqlo_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1871FF158327770045A880 /* uniqlo_logo.png */; };
+		2B187214158327770045A880 /* vancl_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B187200158327770045A880 /* vancl_logo.png */; };
+		2B187215158327770045A880 /* zara_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B187201158327770045A880 /* zara_logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +108,26 @@
 		05DB5C40158112C100325529 /* Updater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Updater.h; path = ShoppingMaster/Updater.h; sourceTree = "<group>"; };
 		05DB5C41158112C100325529 /* Updater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Updater.m; path = ShoppingMaster/Updater.m; sourceTree = "<group>"; };
 		05DB5C471581248600325529 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		2B1871EE158327770045A880 /* ca_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ca_logo.png; sourceTree = "<group>"; };
+		2B1871EF158327770045A880 /* coach_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coach_logo.png; sourceTree = "<group>"; };
+		2B1871F0158327770045A880 /* crocs_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crocs_logo.png; sourceTree = "<group>"; };
+		2B1871F1158327770045A880 /* adidas_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = adidas_logo.png; sourceTree = "<group>"; };
+		2B1871F2158327770045A880 /* esprit_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = esprit_logo.png; sourceTree = "<group>"; };
+		2B1871F3158327770045A880 /* etam_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = etam_logo.png; sourceTree = "<group>"; };
+		2B1871F4158327770045A880 /* forever21_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forever21_logo.png; sourceTree = "<group>"; };
+		2B1871F5158327770045A880 /* gap_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gap_logo.png; sourceTree = "<group>"; };
+		2B1871F6158327770045A880 /* goelia_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goelia_logo.png; sourceTree = "<group>"; };
+		2B1871F7158327770045A880 /* hm_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hm_logo.png; sourceTree = "<group>"; };
+		2B1871F8158327770045A880 /* itezhop_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itezhop_logo.png; sourceTree = "<group>"; };
+		2B1871F9158327770045A880 /* mango_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mango_logo.png; sourceTree = "<group>"; };
+		2B1871FA158327770045A880 /* nike_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nike_logo.png; sourceTree = "<group>"; };
+		2B1871FB158327770045A880 /* oasis_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oasis_logo.png; sourceTree = "<group>"; };
+		2B1871FC158327770045A880 /* ochirly_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ochirly_logo.png; sourceTree = "<group>"; };
+		2B1871FD158327770045A880 /* quicksilver_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quicksilver_logo.png; sourceTree = "<group>"; };
+		2B1871FE158327770045A880 /* roxy_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roxy_logo.png; sourceTree = "<group>"; };
+		2B1871FF158327770045A880 /* uniqlo_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uniqlo_logo.png; sourceTree = "<group>"; };
+		2B187200158327770045A880 /* vancl_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vancl_logo.png; sourceTree = "<group>"; };
+		2B187201158327770045A880 /* zara_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zara_logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +246,7 @@
 		05AD606F157F145700CD9979 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2B1871ED158327770045A880 /* LOGOS */,
 				05AD6070157F145700CD9979 /* ShoppingMaster-Info.plist */,
 				05AD6071157F145700CD9979 /* InfoPlist.strings */,
 				05AD6074157F145700CD9979 /* main.m */,
@@ -233,6 +274,33 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		2B1871ED158327770045A880 /* LOGOS */ = {
+			isa = PBXGroup;
+			children = (
+				2B1871EE158327770045A880 /* ca_logo.png */,
+				2B1871EF158327770045A880 /* coach_logo.png */,
+				2B1871F0158327770045A880 /* crocs_logo.png */,
+				2B1871F1158327770045A880 /* adidas_logo.png */,
+				2B1871F2158327770045A880 /* esprit_logo.png */,
+				2B1871F3158327770045A880 /* etam_logo.png */,
+				2B1871F4158327770045A880 /* forever21_logo.png */,
+				2B1871F5158327770045A880 /* gap_logo.png */,
+				2B1871F6158327770045A880 /* goelia_logo.png */,
+				2B1871F7158327770045A880 /* hm_logo.png */,
+				2B1871F8158327770045A880 /* itezhop_logo.png */,
+				2B1871F9158327770045A880 /* mango_logo.png */,
+				2B1871FA158327770045A880 /* nike_logo.png */,
+				2B1871FB158327770045A880 /* oasis_logo.png */,
+				2B1871FC158327770045A880 /* ochirly_logo.png */,
+				2B1871FD158327770045A880 /* quicksilver_logo.png */,
+				2B1871FE158327770045A880 /* roxy_logo.png */,
+				2B1871FF158327770045A880 /* uniqlo_logo.png */,
+				2B187200158327770045A880 /* vancl_logo.png */,
+				2B187201158327770045A880 /* zara_logo.png */,
+			);
+			path = LOGOS;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -311,6 +379,26 @@
 				05DB5C3B15809E2000325529 /* FavorateViewController.xib in Resources */,
 				05DB5C3D15809E2000325529 /* SettingsViewController.xib in Resources */,
 				05DB5C481581248600325529 /* config.plist in Resources */,
+				2B187202158327770045A880 /* ca_logo.png in Resources */,
+				2B187203158327770045A880 /* coach_logo.png in Resources */,
+				2B187204158327770045A880 /* crocs_logo.png in Resources */,
+				2B187205158327770045A880 /* adidas_logo.png in Resources */,
+				2B187206158327770045A880 /* esprit_logo.png in Resources */,
+				2B187207158327770045A880 /* etam_logo.png in Resources */,
+				2B187208158327770045A880 /* forever21_logo.png in Resources */,
+				2B187209158327770045A880 /* gap_logo.png in Resources */,
+				2B18720A158327770045A880 /* goelia_logo.png in Resources */,
+				2B18720B158327770045A880 /* hm_logo.png in Resources */,
+				2B18720C158327770045A880 /* itezhop_logo.png in Resources */,
+				2B18720D158327770045A880 /* mango_logo.png in Resources */,
+				2B18720E158327770045A880 /* nike_logo.png in Resources */,
+				2B18720F158327770045A880 /* oasis_logo.png in Resources */,
+				2B187210158327770045A880 /* ochirly_logo.png in Resources */,
+				2B187211158327770045A880 /* quicksilver_logo.png in Resources */,
+				2B187212158327770045A880 /* roxy_logo.png in Resources */,
+				2B187213158327770045A880 /* uniqlo_logo.png in Resources */,
+				2B187214158327770045A880 /* vancl_logo.png in Resources */,
+				2B187215158327770045A880 /* zara_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

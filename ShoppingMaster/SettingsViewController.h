@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SettingsViewController : UIViewController
+@interface SettingsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource> {
+    NSArray *shopNames;
+}
+
+@property (nonatomic, retain) NSArray *shopNames;
 
 -(IBAction)showMainView:(id)sender;
+
 
 @end
